@@ -242,7 +242,7 @@ function outMatrix() {
         }
     }
 
-    for (let n = 0; n < 4; n++) { // Находим суммарную матрицу
+    for (let n = 0; n < dataOfInputs.length - 1; n++) { // Находим суммарную матрицу
         for (let k = 0; k < dataOfInputs.length; k++) {
             for (let i = 0; i < dataOfInputs.length; i++) {
                 let temp = 0;
